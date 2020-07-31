@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImplisitIntentActivity">
+
+    <EditText
+        android:id="@+id/edit_dial_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_16dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_dial_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="@string/open_dial_up"
+        android:textSize="@dimen/dimen_16dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:onClick="dialPhone"
+        app:layout_constraintTop_toBottomOf="@+id/edit_dial_phone"/>
+
+    <EditText
+        android:id="@+id/edit_browser"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_dial_phone"/>
+
+    <Button
+        android:id="@+id/btn_browser"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="@string/open_browser"
+        android:textSize="@dimen/dimen_16dp"
+        app:layout_constraintTop_toBottomOf="@+id/edit_browser"/>
+
+    <EditText
+        android:id="@+id/edit_location"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_browser"/>
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="@string/open_location"
+        android:textSize="@dimen/dimen_16dp"
+        app:layout_constraintTop_toBottomOf="@+id/edit_location"/>
+
+    <EditText
+        android:id="@+id/edit_share_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_location"/>
+
+    <Button
+        android:id="@+id/btn_share_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="@string/share_text"
+        android:textSize="@dimen/dimen_16dp"
+        app:layout_constraintTop_toBottomOf="@+id/edit_share_text"/>
+
+</android.support.constraint.ConstraintLayout>

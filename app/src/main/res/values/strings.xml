@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">modul4</string>
+    <string name="string_nomor_telepon">Masukan Nomor Telepon</string>
+    <string name="open_dial_up">OPEN DIAL UP</string>
+    <string name="share_text">SHARE TEXT</string>
+    <string name="string_text">Masukan Teks</string>
+    <string name="open_location">OPEN LOCATION</string>
+    <string name="string_buka_lokasi">Buka Lokasi</string>
+    <string name="open_browser">OPEN BROWSER</string>
+    <string name="string_url">Masukan URL</string>
+    <string name="string_judul">Implisit Intent</string>
+</resources>
